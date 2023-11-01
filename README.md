@@ -9,7 +9,7 @@ Try it here: https://alex-milyaev.github.io/crm-clients-with-db.render/
   <li>Необходимо запустить проект из папки crm-client с помощью Live Server в вашем редакторе кода или любого другого сервера.</li>
 </ul>
 
-![](https://github.com/Alex-Milyaev/CRM-Clients/blob/main/CRM-Clients-2.png)
+![](https://github.com/Alex-Milyaev/crm-clients-with-db.render/blob/main/CRM-Clients-2.png)
 
 ## Функционал приложения
 <ul>
@@ -28,4 +28,4 @@ Try it here: https://alex-milyaev.github.io/crm-clients-with-db.render/
   <li>Анимации ссылок, открытия модального окна</li>
 </ul>
     
-![](https://github.com/Alex-Milyaev/CRM-Clients/blob/main/CRM-Clients-1.png)
+![](https://github.com/Alex-Milyaev/crm-clients-with-db.render/blob/main/CRM-Clients-1.png)
