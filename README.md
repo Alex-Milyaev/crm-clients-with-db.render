@@ -2,13 +2,6 @@ Try it here: https://alex-milyaev.github.io/crm-clients-with-db.render/
 
 # CRM-Clients - приложение для управления контактными данными клиентов
 
-## Запуск приложения
-<ul>
-  <li>Для запуска сервера перейдите в папку crm-server и выполните команду node index. Для остановки нажмите сочетание клавиш CTRL+C.</li>
-  <li>После запуска сервера API будет доступен по пути http://localhost:3000.</li>
-  <li>Необходимо запустить проект из папки crm-client с помощью Live Server в вашем редакторе кода или любого другого сервера.</li>
-</ul>
-
 ![](https://github.com/Alex-Milyaev/crm-clients-with-db.render/blob/main/CRM-Clients-2.png)
 
 ## Функционал приложения
