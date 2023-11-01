@@ -1,7 +1,7 @@
 // Асинхронная функция для получения всех данных с сервера
 export const getClients = async () => {
     try {
-        const response = await fetch('http://localhost:3000/api/clients', {
+        const response = await fetch('https://crm-clients-with-db.onrender.com/api/clients', {
             method: 'GET'
         });
         const result = await response.json();
@@ -16,7 +16,7 @@ export const getClients = async () => {
 // Асинхронная функция для добавления + изменения данных на сервере
 export const sendClientData = async (client, method, id = null) => {
     try {
-        const response = await fetch(`http://localhost:3000/api/clients/${method === 'POST' ? '' : id}`, {
+        const response = await fetch(`https://crm-clients-with-db.onrender.com/api/clients/${method === 'POST' ? '' : id}`, {
             headers: {
                 'Content-Type': 'application/json'
             },
@@ -34,7 +34,7 @@ export const sendClientData = async (client, method, id = null) => {
 // Асинхронная функция для удаления данных с сервера
 export const deleteClientItem = async (id) => {
     try {
-        await fetch(`http://localhost:3000/api/clients/${id}`, {
+        await fetch(`https://crm-clients-with-db.onrender.com/api/clients/${id}`, {
             method: 'DELETE',
         });
     } catch (error) {
@@ -45,7 +45,7 @@ export const deleteClientItem = async (id) => {
 // Асинхронная функция для поиска данных на сервере
 export const findClient = async (value) => {
     try {
-        const response = await fetch(`http://localhost:3000/api/clients?search=${value}`, {
+        const response = await fetch(`https://crm-clients-with-db.onrender.com/api/clients?search=${value}`, {
             method: 'GET'
         });
         const result = await response.json();
