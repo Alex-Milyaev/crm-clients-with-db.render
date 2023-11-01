@@ -109,7 +109,7 @@ export const createClientItem = (data) => {
     deleteSpinner.innerHTML = svgSpinner;
     editSpinner.innerHTML = svgSpinner;
     // clientId.textContent = Math.floor(Math.random() * 15); // генерация рандомных айдишников для наглядности работы сортировки
-    clientId.textContent = data._id.substr(data._id.length - 1); // Присваиваем первые 6 символов идентификатора которые отдает сервер
+    clientId.textContent = data._id.substr(0, 6); // Присваиваем первые 6 символов идентификатора которые отдает сервер
     clientSurname.textContent = data.surname;
     clientName.textContent = data.name;
     clientLastName.textContent = data.lastName;
